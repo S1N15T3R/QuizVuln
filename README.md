@@ -2,7 +2,7 @@
 
 # 🛡️ QuizVuln
 
-### Master the **OWASP Top 10** by playing — an AI-powered Android quiz that generates fresh, never-repeated vulnerability questions on demand.
+### Master the **OWASP Top 10** by playing  an AI-powered Android quiz that generates fresh, never-repeated vulnerability questions on demand.
 
 [![Platform](https://img.shields.io/badge/platform-Android%2024%2B-3DDC84?logo=android&logoColor=white)](https://www.android.com/)
 [![Build](https://img.shields.io/badge/build-Gradle%208.13-blueviolet)](https://gradle.org/)
@@ -12,7 +12,7 @@
 
 <br>
 
-> _"The best way to learn web security is to be quizzed on it — until the answers stick."_
+> _"The best way to learn web security is to be quizzed on it until the answers stick."_
 
 </div>
 
@@ -34,7 +34,7 @@ for you in seconds. Every attempt is saved locally so you can track progress ove
 
 | | Feature | Description |
 |---|---------|-------------|
-| 🤖 | **AI-Generated Questions** | Questions are synthesized live by an LLM — no two quizzes are ever the same. |
+| 🤖 | **AI-Generated Questions** | Questions are synthesized live by an LLM  no two quizzes are ever the same. |
 | 🎯 | **OWASP Top 10 Coverage** | Drill into any of the 10 categories, from Injection to SSRF. |
 | 🎚️ | **Difficulty Levels** | `easy` · `hard` · `advanced` to grow with you. |
 | 🔢 | **Flexible Length** | 5, 10, or 20 questions per round. |
@@ -102,8 +102,8 @@ QuizVuln/
 │   └── src/main/res/          # Layouts, drawables, animations, values
 ├── gradle/                    # Wrapper + version catalog
 ├── build.gradle               # Project config
-├── gradle.properties          # ⚠️ SECRET — gitignored, not committed
-├── local.properties           # ⚠️ SDK path — gitignored
+├── gradle.properties          
+├── local.properties           
 └── QuizVuln.apk               # Debug build (ready to install)
 ```
 
@@ -126,17 +126,13 @@ cd QuizVuln
 
 ### 2. Add your API key
 
-The key is **never** committed to the repo. Create your own local config:
+ Create your own local config:
 
 ```bash
 cp gradle.properties.example gradle.properties
 # then edit gradle.properties and set:
 # OPENROUTER_API_KEY=your_openrouter_key_here
 ```
-
-> 🔒 `gradle.properties` is gitignored on purpose. The key is injected into the
-> app at build time via `BuildConfig.OPENROUTER_API_KEY` and is **not** present
-> in the committed source.
 
 ### 3. Build & run
 
@@ -185,7 +181,7 @@ what you'd like to change.
 ## ⚠️ Disclaimer
 
 QuizVuln is an **educational** tool intended to help learners understand web security
-concepts. Quiz content is AI-generated and may contain inaccuracies — always verify
+concepts. Quiz content is AI-generated and may contain inaccuracies always verify
 against the [official OWASP Top 10](https://owasp.org/Top10/) documentation.
 
 ---
