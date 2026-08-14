@@ -1,0 +1,33 @@
+# Built application files (keep our shipped QuizVuln.apk — do NOT add *.apk here)
+*.aar
+*.jar
+*.war
+*.ear
+
+# Gradle / build artifacts (ignore at every level, including app/build)
+.gradle/
+build/
+
+# Local configuration (SDK path, etc.)
+local.properties
+/local.properties
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+.gradle
+
+# OS / capture files
+.DS_Store
+/captures
+.externalNativeBuild
+.cxx
+
+# Secrets & signing material — NEVER commit
+gradle.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+signing.properties
+.env

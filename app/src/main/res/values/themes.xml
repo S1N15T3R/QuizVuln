@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- ✅ Base Theme -->
+    <style name="Base.Theme.QuizVuln" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/teal_700</item>
+        <item name="colorPrimaryVariant">@color/teal_200</item>
+        <item name="colorSecondary">@color/quiz_green</item>
+        <item name="android:statusBarColor">@color/teal_700</item>
+    </style>
+
+    <!-- ✅ Normal Theme -->
+    <style name="Theme.QuizVuln" parent="Base.Theme.QuizVuln" />
+
+    <!-- ✅ NoActionBar Theme (used by SplashActivity) -->
+    <style name="Theme.QuizVuln.NoActionBar" parent="Base.Theme.QuizVuln">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>

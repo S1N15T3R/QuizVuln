@@ -1,0 +1,7 @@
+# Copy this file to `gradle.properties` and fill in your own OpenRouter key.
+# `gradle.properties` is gitignored — keep your real key out of version control.
+#
+# Get a free key at https://openrouter.ai/keys
+
+# Api Key For OpenRouter.
+OPENROUTER_API_KEY=REPLACE_WITH_YOUR_OPENROUTER_API_KEY
